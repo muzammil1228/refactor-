@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <table>
+        <tr>
+            <td>
+                First Name:
+            </td>
+            <td>
+            <input type="text" name="first name" id="first name" required>
+            </td>
+
+        </tr>
+        
+        <tr>
+            <td>
+                Last Name:
+            </td>
+            <td>
+                <input type="text" name="last name" id="last name" required>
+            </td>
+        </tr>
+
+        
+        <tr>
+            <td>
+                Gender:
+            </td>
+            <td>
+                <input type="radio" name="gender" value="male">MALE
+                <input type="radio" name="gender" value="female">FEMALE
+                <input type="radio" name="gender" value="others">OTHERS
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Profile Image:
+            </td>
+            <td>
+                <input class="file-upload-input" type="file" onchange="readURL(this)" accept="image">
+                <button type="upload">UPLOAD</button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Message:
+            </td>
+            <td>         
+                <textarea cols="30" rows="5" placeholder="self-description"></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Country:
+            </td>
+            <td>
+                <select id="Country">
+                    <option value="country">Select Country</option>
+                    <option value="australia">australia</option>
+                    <option value="bangladesh">bangladesh</option>
+                    <option value="china">china</option>
+                    <option value="denmark">denmark</option>
+                    <option value="egypt">egypt</option>
+                    <option value="france">france</option>
+                    <option value="germany">germany</option>
+                    <option value="hungary">hungary</option>
+                    <option value="india">india</option>
+                    <option value="pakistan">pakistan</option>
+                </select>
+            </td>
+        </tr>
+
+        </table>
+        <button type="reset">RESET</button>
+        <button type="submit">SUBMIT</button>
+    </form>
+</body>
+</html>
