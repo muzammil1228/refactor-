@@ -1,0 +1,152 @@
+*
+{
+    margin : 0;
+    padding : 0;
+}
+body
+{
+    font-family:sans-serif;
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-image: linear-gradient(to right, aqua, blue );
+    padding: 0; !important
+}
+.navbar-brand img
+{
+    height: 80px;
+    padding-left: 50px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;    
+}
+#services
+{
+    padding: 80px 0;
+}
+.service-img
+{
+    width: 100px;
+    margin-top: 0;
+}
+.services
+{
+    padding: 20px;
+}
+.services h4
+{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+container
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body
+{
+    display: grid;
+    justify-content: end;
+    align-content: end;
+    min-height: 100vh;
+}
+footer
+{
+position: relative;
+width: 100%;
+height: auto;
+padding: 50px 100px;
+background-color: black;
+color: aliceblue;
+}
+footer .container
+{
+width: 100%;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+footer .container .sec h4
+{
+    position: relative;
+    color: aliceblue;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+footer .container .sec h4::before
+{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background-color: cyan;
+}
+.sci
+{
+margin-top: 20px;
+display: grid;
+grid-template-columns: repeat(4, 50px);
+grid-gap: 3px;
+}
+.sci li
+{
+    list-style: none;
+}
+.sci li a
+{
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+.quicklinks
+{
+    position: relative;
+}
+.quicklinks li
+{
+    list-style: none;
+}
+.quicklinks li a
+{
+    color: aliceblue;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.quicklinks li a:hover
+{
+    color: crimson;
+}
+.contactus
+{
+    position: relative;
+}
+.contactus li
+{
+    list-style: none;
+}
+.contactus li a
+{
+    color: aliceblue;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.contactus li a:hover
+{
+    color: crimson;
+}
